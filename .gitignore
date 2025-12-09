@@ -1,4 +1,6 @@
 .venv/
 data/
 testfiles/
+.gitignore/
+.ds_store/
 
