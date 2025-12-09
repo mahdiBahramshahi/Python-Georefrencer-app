@@ -90,11 +90,6 @@ If `tkinter` is not available:
 brew install python-tk@3.11
 ```
 
-### Step 3: Verify Installation
-
-```bash
-python app.py --help
-```
 
 ---
 
@@ -309,30 +304,6 @@ pip install rasterio
 
 ---
 
-## 🗺️ Examples
-
-### Example 1: Historical Aerial Photo
-
-```bash
-Input:  aerial_1960.jpg (no coordinates)
-KML:    city_boundary.kml
-Output: aerial_1960_georef.tif (with WGS84)
-Points: 8 GCPs
-Result: ✅ RMS Error: 2.3 meters
-```
-
-### Example 2: Drone Survey
-
-```bash
-Input:  drone_field.jpg
-KML:    farm_boundary.kml
-Output: drone_field_georef.tif
-Points: 6 GCPs
-Result: ✅ Successfully aligned
-```
-
----
-
 ## 🌟 Roadmap
 
 ### Phase 1: Current Version ✅
@@ -375,17 +346,11 @@ pip install -r requirements.txt
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/mahdiBahramshahi)
-- LinkedIn: [Your Profile](https://www.linkedin.com/in/mahdi-bahramshahi/)
+**Mahdi Bahramshahi**
+- GitHub: [@mahdibahramshahi](https://github.com/mahdiBahramshahi)
+- LinkedIn: (https://www.linkedin.com/in/mahdi-bahramshahi/)
 
 ---
 
